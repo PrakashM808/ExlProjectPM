@@ -31,7 +31,7 @@ public class BrowserFactory {
 		readConfig();
 
 		if (browser.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "driver\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver.exe");
 			driver = new ChromeDriver();
 
 		} else if (browser.equalsIgnoreCase("firefox")) {
