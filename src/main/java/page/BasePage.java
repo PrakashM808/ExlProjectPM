@@ -1,7 +1,14 @@
 package page;
 
+import java.io.File;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Random;
 
+
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
@@ -19,5 +26,6 @@ public class BasePage {
 		return generatedNum;
 		
 	}
+
 
 }
